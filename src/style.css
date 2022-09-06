@@ -1,0 +1,73 @@
+
+
+@media (min-width:720px) and (min-width:1281px) 
+{ 
+    /* big landscape tablets, laptops, and desktops */
+    /* hi-res laptops and desktops */ 
+    .wapper {
+        background: black;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .vocal {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .vocal img {
+        height: 80%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+    }
+    
+    .vocal .group-btn {
+        position: absolute;
+        top: 10%;
+        left: 52%;
+        width: 15%;
+        height: 100%;
+    }
+    
+    .vocal .group-btn .row {
+        height: 10vh;
+        max-height: 90px;
+        margin-bottom: 3vh;
+    }
+    
+    .vocal .group-btn button {
+        border-radius: 45px;
+        border: 2px solid white;
+        box-shadow: 0 0 2vw -0.8vw white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .btn-top {
+        position: fixed;
+        bottom: 3%;
+        right: 5%;
+    }
+
+    .picktures {
+        position: absolute;
+        top: 25%;
+        left: 44%;
+        height: 75%;
+        width: 46%;
+        display: flex;
+    }
+
+    .picktures .carousel-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: black;
+    }
+}
